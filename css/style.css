@@ -35,10 +35,12 @@ body{
     opacity: 0.9;
 }
 
+
+
 @media (max-width: 510px){
     #mission h1{
        font-size: 35px;
-       margin-bottom: 50px;
+       margin-bottom: 100px;
     }
 
 }
