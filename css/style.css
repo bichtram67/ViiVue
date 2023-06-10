@@ -34,6 +34,14 @@ body{
 .circle-gradient:hover{
     opacity: 0.9;
 }
+
+@media (max-width: 510px){
+    #mission h1{
+       font-size: 35px;
+       margin-bottom: 50px;
+    }
+
+}
 @media (max-width: 900px) {
     .circle{
         border-radius: 50%;
@@ -82,7 +90,7 @@ body{
         font-size: 48px;
         color:  #353455;
         height: 168px;
-        margin-right: 50px;
+        /* margin-right: 50px; */
         text-align: center;
         
     
