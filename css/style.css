@@ -2,6 +2,7 @@
     --background: linear-gradient(63.23deg, #204EA5 -29.6%, #EB4969 101.75%);
     --primary: #004EAB;
     --secondary: #EB4969;
+    --border: 2px dashed rgb(0 78 171 /0.15)
 }
 main{
     font-family: 'Roboto', sans-serif;
@@ -193,7 +194,7 @@ main{
         cursor: pointer;
     }
     .circle-dash{
-        border: 2px dashed rgb(0 78 171 /0.15)
+        border: var(--border)
     }
     .circle-gradient{
         background: var(--background);
